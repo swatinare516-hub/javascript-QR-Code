@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>QR Code Generator</h2>
+
+        <div class="input-field">
+            <input id="qrText" type="text" placeholder="Text / Website / Name">
+            <button id="btn-Action">Generate QR Code</button>
+        </div>
+
+        <img
+            id="qr-code"
+            src="https://img.freepik.com/free-vector/scan-me-qr-code_78370-2915.jpg"
+            alt="QR Code"
+        >
+    </div>
+
+</body>
+</html>
